@@ -25,7 +25,7 @@ public class IMC extends JFrame implements ActionListener {
     }
 
     public void panel1() {
-        Jlabeltext = new JLabel("Altura (metros)");
+        Jlabeltext = new JLabel("Altura (centrimetros)");
         Jlabeltext.setBounds(10, 5, 280, 40);
         add(Jlabeltext);
         Txarea = new JTextArea();
